@@ -23,7 +23,7 @@ export default function Hero() {
                 <span className="st-social-icon"><i className="fab fa-github"></i></span>
                 <span className="st-icon-name">Github</span>
               </a>
-              <a href="https://x.com/MdArifReza3" className="st-social-btn" target="_blank">
+              <a href="https://x.com/" className="st-social-btn" target="_blank">
                 <span className="st-social-icon"><i className="fab fa-twitter"></i></span>
                 <span className="st-icon-name">Twitter</span>
               </a>

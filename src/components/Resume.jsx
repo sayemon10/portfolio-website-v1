@@ -77,15 +77,15 @@ export default function Resume() {
 
         <div id="doc" style={{ textAlign: 'center' }}>
           
-            <iframe src="https://docs.google.com/document/d/1kNQ_0PA_4cWzHbeuCwwbBjJ7HcsPWD42-uabBnpuOQQ/preview"
+            <iframe src="https://docs.google.com/document/d/1GFk11ncuqnv1OQCx6Rcfvcnyshf8t1cF/preview"
                 width="40%" height="1050px" style={{ display: 'block', margin: 'auto', backgroundColor: '#0a0b1c' }}></iframe>
             {/* <iframe src="https://drive.google.com/file/d/1YtYU5br4LAyJBIFkCzboazuPkouEwjlH/view"
                 width="40%" height="1050px" style={{ display: 'block', margin: 'auto', backgroundColor: '#0a0b1c' }}></iframe> */}
         </div>
 
         <div className="st-text-block-btn mt-3" style={{ display: 'flex', justifyContent: 'center' }}>
-            <a href="assets/img/Md_Ariful_Islam_Software_Engineer_Resume.pdf" className="st-btn st-style1 st-color1"
-                download="Md_Ariful_Islam_Software_Engineer_Resume.pdf">Have to change file Download Resume</a>
+            <a href="assets/img/Farhana_Islam_Front_End_Developer_Resume.pdf" className="st-btn st-style1 st-color1"
+                download="Farhana_Islam_Front_End_Developer_Resume.pdf">Download Resume</a>
         </div>
 
     </section>
