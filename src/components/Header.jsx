@@ -7,7 +7,7 @@ export default function Header() {
           <div className="st-main-header-in">
             <div className="st-main-header-left">
               <div className="st-header-author">
-                <img src="/assets/img/section/50626.jpg" alt="author" width={50} height={50} />
+                <img src="/assets/img/section/farhana.png" alt="author" width={50} height={50} />
               </div>
             </div>
             <div className="st-main-header-right">

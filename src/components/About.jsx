@@ -14,8 +14,7 @@ export default function About() {
         <div className="row">
           <div className="col-lg-6 wow fadeInLeft">
             <div className="st-about-img-wrap">
-              {/* <div className="st-about-img st-dynamic-bg st-bg" style={{ backgroundImage: "url('/assets/img/section/50626.jpg')" }}></div> */}
-              <img src="/assets/img/section/50626.jpg" alt="about" className="st-about-img-in" />
+              <img src="/assets/img/section/farhana.png" alt="about" className="st-about-img-in" />
             </div>
             <div className="st-height-b0 st-height-lg-b30"></div>
           </div>
