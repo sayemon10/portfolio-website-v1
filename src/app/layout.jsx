@@ -1,8 +1,8 @@
 import Script from 'next/script';
 
 export const metadata = {
-  title: "Ariful Islam",
-  description: "Ariful Islam's personal portfolio",
+  title: "Farhana Islam",
+  description: "Farhana Islam's portfolio",
 };
 
 export default function RootLayout({ children }) {
