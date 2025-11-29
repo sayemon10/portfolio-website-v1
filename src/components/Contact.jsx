@@ -26,7 +26,7 @@ export default function Contact() {
                 <i className="fas fa-message"></i>
                 <div className="st-single-info-details">
                   <h4>Send Message</h4>
-                  <a href="https://form.jotform.com/242975702212050" className="st-social-btn active" target="_blank">
+                  <a href="https://form.jotform.com/253322727892463" className="st-social-btn active" target="_blank">
                     <span className = "st-social-icon">Click here <br /> Send me direct message</span>
                   </a>
                 </div>
@@ -35,15 +35,15 @@ export default function Contact() {
                 <i className="fas fa-envelope"></i>
                 <div className="st-single-info-details">
                   <h4>Email</h4>
-                  <a href="#">arif.reza3126@gmail.com</a>
-                  <a href="#">mailarif3126@gmail.com</a>
+                  <a href="#">mailfarhana702@gmail.com</a>
+                  <a href="#">enquery.faru@gmail.com</a>
                 </div>
               </div>
               <div className="st-single-contact-info phone">
                 <i className="fas fa-phone-alt"></i>
                 <div className="st-single-info-details">
                   <h4>Phone</h4>
-                  <a href="#">+8801677243126 <br /> +8801995652864</a>
+                  <a href="#">+8801779742755 <br /> +8801400470702</a>
                 </div>
               </div>
             </div>
@@ -51,11 +51,11 @@ export default function Contact() {
               <div>
                 {/* <div className="st-social-text">Visit my social profile and get connected</div> */}
                 <div className="st-social-link d-flex flex-wrap justify-content-center align-items-center">
-                  <a href="https://www.linkedin.com/in/md-arif-rexa/" className="st-social-btn" target="_blank">
+                  <a href="https://www.linkedin.com/in/farhana-faru/" className="st-social-btn" target="_blank">
                     <span className="st-social-icon"><i className="fab fa-linkedin"></i></span>
                     <span className="st-icon-name">LinkedIn</span>
                   </a>
-                  <a href="https://github.com/ArifRexa/" className="st-social-btn" target="_blank">
+                  <a href="https://github.com/farhanarexa/" className="st-social-btn" target="_blank">
                     <span className="st-social-icon"><i className="fab fa-github"></i></span>
                     <span className="st-icon-name">Github</span>
                   </a>
@@ -63,7 +63,7 @@ export default function Contact() {
                     <span className="st-social-icon"><i className="fab fa-twitter"></i></span>
                     <span className="st-icon-name">Twitter</span>
                   </a>
-                  <a href="https://www.threads.net/@arif_rexa" className="st-social-btn active" target="_blank">
+                  <a href="https://www.threads.net/@iam_faruuu" className="st-social-btn active" target="_blank">
                     <span className="st-social-icon"><i className="fa-brands fa-threads"></i></span>
                     <span className="st-icon-name">Threads</span>
                   </a>

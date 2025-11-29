@@ -23,19 +23,20 @@ export default function About() {
             <div className="st-vertical-middle">
               <div className="st-vertical-middle-in">
                 <div className="st-text-block st-style1">
-                  <h2 className="st-text-block-title text-left">Hi There! I'm Ariful Islam</h2>
-                  <h4 className="st-text-block-subtitle">Software Engineer</h4>
+                  <h2 className="st-text-block-title text-left">Hi There! I'm Farhana Islam</h2>
+                  <h4 className="st-text-block-subtitle">MERN Stack Developer</h4>
                   <div className="st-text-block-text">
-                    <p>I am a Software Engineer with extensive experience in both frontend and backend
+                    {/* <p>I am a Software Engineer with extensive experience in both frontend and backend
                       development. I
                       specialize in Python, Django, React, and Tailwind CSS, with a strong foundation
                       in web automation
-                      and API integration.</p>
+                      and API integration.</p> */}
+                    <p>I’m a MERN Stack Developer skilled in React, Next.js, JavaScript, and Tailwind CSS, with experience across the full stack using tools like Firebase, Supabase, and Node.js. I enjoy building responsive, user-friendly interfaces and developing efficient backend logic to deliver complete, seamless web applications.</p>
                   </div>
                   <ul className="st-text-block-details st-mp0">
-                    <li><span>Birthday</span> : <span>April 25</span></li>
-                    <li><span>Phone</span> : <span>+8801677243126</span></li>
-                    <li><span>Email</span> : <span>arif.reza3126@gmail.com</span></li>
+                    <li><span>Birthday</span> : <span>July 15</span></li>
+                    <li><span>Phone</span> : <span>+8801779742755</span></li>
+                    <li><span>Email</span> : <span>mailfarhana702@gmail.com</span></li>
                     <li><span>From</span> : <span>Pallabi, Dhaka 1216</span></li>
                     <li><span>Language</span> : <span>Bangla, English, Hindi, Urdu</span></li>
                   </ul>

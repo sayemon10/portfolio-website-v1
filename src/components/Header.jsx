@@ -25,7 +25,7 @@ export default function Header() {
                   <a href="#contact" className="st-btn st-style2 st-color1 st-btn-md st-smooth-move">Hire me</a>
                 </div>
                 <div className="st-hero-btn">
-                  <a href="/assets/img/Md_Ariful_Islam_Software_Engineer_Resume.pdf" className="st-btn st-style2 st-color1 st-btn-md st-smooth-move" download="Md_Ariful_Islam_Software_Engineer_Resume.pdf">Have to change file Download</a>
+                  <a href="/assets/img/Md_Ariful_Islam_Software_Engineer_Resume.pdf" className="st-btn st-style2 st-color1 st-btn-md st-smooth-move" download="Md_Ariful_Islam_Software_Engineer_Resume.pdf">Download</a>
                 </div>
               </div>
             </div>
