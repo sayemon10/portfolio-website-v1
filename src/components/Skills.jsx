@@ -73,6 +73,20 @@ export default function Skills() {
                 </div>
               </div>
               <div className="skills__card">
+                <img src="/assets/img/nodejs.png" alt="API" className="skills__icon" style={{width: "50px"}} />
+                <h3 className="skills__name">Node.js</h3>
+                <div className="skills__bar">
+                  <div className="skills__progress skills__api"></div>
+                </div>
+              </div>
+              <div className="skills__card">
+                <img src="/assets/img/expressjs.png" alt="API" className="skills__icon" style={{width: "50px"}} />
+                <h3 className="skills__name">Express.js</h3>
+                <div className="skills__bar">
+                  <div className="skills__progress skills__api"></div>
+                </div>
+              </div>
+              <div className="skills__card">
                 <img src="/assets/img/api-settings-svgrepo-com.svg" alt="API" className="skills__icon" style={{width: "50px"}} />
                 <h3 className="skills__name">Rest API</h3>
                 <div className="skills__bar">
@@ -82,6 +96,13 @@ export default function Skills() {
               <div className="skills__card">
                 <img src="/assets/img/tailwind-svgrepo-com.svg" alt="Tailwind CSS" className="skills__icon" style={{width: "50px"}} />
                 <h3 className="skills__name">Tailwind CSS</h3>
+                <div className="skills__bar">
+                  <div className="skills__progress skills__tailwind"></div>
+                </div>
+              </div>
+              <div className="skills__card">
+                <img src="/assets/img/daisyui.svg" alt="Daisy UI" className="skills__icon" style={{width: "50px"}} />
+                <h3 className="skills__name">Daisy UI</h3>
                 <div className="skills__bar">
                   <div className="skills__progress skills__tailwind"></div>
                 </div>
@@ -106,8 +127,36 @@ export default function Skills() {
                 </div>
               </div>
               <div className="skills__card">
+                <img src="/assets/img/github.png" alt="Git" className="skills__icon" style={{width: "50px"}} />
+                <h3 className="skills__name">GitHub</h3>
+                <div className="skills__bar">
+                  <div className="skills__progress skills__git"></div>
+                </div>
+              </div>
+              <div className="skills__card">
                 <img src="/assets/img/postman-icon-svgrepo-com.svg" alt="Postman" className="skills__icon" style={{width: "50px"}} />
                 <h3 className="skills__name">Postman</h3>
+                <div className="skills__bar">
+                  <div className="skills__progress skills__postman"></div>
+                </div>
+              </div>
+              <div className="skills__card">
+                <img src="/assets/img/supabase-logo.png" alt="Docker" className="skills__icon" style={{width: "50px"}} />
+                <h3 className="skills__name">Supabase</h3>
+                <div className="skills__bar">
+                  <div className="skills__progress skills__postman"></div>
+                </div>
+              </div>
+              <div className="skills__card">
+                <img src="/assets/img/firebase.png" alt="Docker" className="skills__icon" style={{width: "50px"}} />
+                <h3 className="skills__name">Firebase</h3>
+                <div className="skills__bar">
+                  <div className="skills__progress skills__postman"></div>
+                </div>
+              </div>
+              <div className="skills__card">
+                <img src="/assets/img/figma.png" alt="Docker" className="skills__icon" style={{width: "50px"}} />
+                <h3 className="skills__name">Figma</h3>
                 <div className="skills__bar">
                   <div className="skills__progress skills__postman"></div>
                 </div>

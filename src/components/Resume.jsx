@@ -12,7 +12,7 @@ export default function Resume() {
       <div className="container">
         <div className="row">
           {/* Experience */}
-          <div className="col-lg-6">
+          {/* <div className="col-lg-6">
             <div className="st-resume-wrap">
               <div className="st-resume-heading">
                 <img src="/assets/img/icon/resume-icon1.png" alt="resume-icon" />
@@ -36,10 +36,10 @@ export default function Resume() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Education */}
-          <div className="col-lg-6">
+          {/* <div className="col-lg-6">
             <div className="st-height-b0 st-height-lg-b50"></div>
             <div className="st-resume-wrap">
               <div className="st-resume-heading">
@@ -64,11 +64,11 @@ export default function Resume() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="st-height-b100 st-height-lg-b80"></div>
-      
+
       <section className="work section" id="work">
         {/* PDF iframe */}
         {/* <iframe id="pdf" src="assets/img/Md_Ariful_Islam_Software_Engineer_Resume.pdf" width="55%" height="1050px" style={{ display: 'block', margin: 'auto', backgroundColor: '#0a0b1c' }}></iframe> */}
@@ -76,21 +76,21 @@ export default function Resume() {
         {/* Google Doc iframe */}
 
         <div id="doc" style={{ textAlign: 'center' }}>
-          
-            <iframe src="https://docs.google.com/document/d/1GFk11ncuqnv1OQCx6Rcfvcnyshf8t1cF/preview"
-                width="40%" height="1050px" style={{ display: 'block', margin: 'auto', backgroundColor: '#0a0b1c' }}></iframe>
-            {/* <iframe src="https://drive.google.com/file/d/1YtYU5br4LAyJBIFkCzboazuPkouEwjlH/view"
+
+          <iframe src="https://docs.google.com/document/d/1GFk11ncuqnv1OQCx6Rcfvcnyshf8t1cF/preview"
+            width="40%" height="1050px" style={{ display: 'block', margin: 'auto', backgroundColor: '#0a0b1c' }}></iframe>
+          {/* <iframe src="https://drive.google.com/file/d/1YtYU5br4LAyJBIFkCzboazuPkouEwjlH/view"
                 width="40%" height="1050px" style={{ display: 'block', margin: 'auto', backgroundColor: '#0a0b1c' }}></iframe> */}
         </div>
 
         <div className="st-text-block-btn mt-3" style={{ display: 'flex', justifyContent: 'center' }}>
-            <a href="assets/img/Farhana_Islam_Front_End_Developer_Resume.pdf" className="st-btn st-style1 st-color1"
-                download="Farhana_Islam_Front_End_Developer_Resume.pdf">Download Resume</a>
+          <a href="assets/img/Farhana_Islam_Front_End_Developer_Resume.pdf" className="st-btn st-style1 st-color1"
+            download="Farhana_Islam_Front_End_Developer_Resume.pdf">Download Resume</a>
         </div>
 
-    </section>
+      </section>
 
-    <style jsx>{`
+      <style jsx>{`
         @media only screen and (min-device-width: 10px) and (max-device-width: 1024px) {
             #doc {
                 display: none;

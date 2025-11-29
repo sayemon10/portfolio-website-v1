@@ -14,7 +14,7 @@ export default function About() {
         <div className="row">
           <div className="col-lg-6 wow fadeInLeft">
             <div className="st-about-img-wrap">
-              <img src="/assets/img/section/farhana.png" alt="about" className="st-about-img-in" />
+              <img src="/assets/img/section/faru1.png" alt="about" className="st-about-img-in" />
             </div>
             <div className="st-height-b0 st-height-lg-b30"></div>
           </div>
@@ -40,7 +40,7 @@ export default function About() {
                     <li><span>Language</span> : <span>Bangla, English, Hindi, Urdu</span></li>
                   </ul>
                   <div className="st-text-block-btn">
-                    <a href="/assets/img/Md_Ariful_Islam_Software_Engineer_Resume.pdf" className="st-btn st-style1 st-color1" download="Md_Ariful_Islam_Software_Engineer_Resume.pdf">Download Resume</a>
+                    <a href="/assets/img/Farhana_Islam_Front_End_Developer_Resume.pdf" className="st-btn st-style1 st-color1" download="Farhana_Islam_Front_End_Developer_Resume.pdf">Download Resume</a>
                   </div>
                 </div>
               </div>
