@@ -32,7 +32,7 @@ export default function Skills() {
             {/* Languages Section */}
             <h3 className="skills__subtitle">Languages</h3>
             <div className="skills__grid">
-              <div className="skills__card">
+              {/* <div className="skills__card">
                 <img src="/assets/img/python-svgrepo-com.svg" alt="Python" className="skills__icon" style={{width: "50px"}} />
                 <h3 className="skills__name">Python</h3>
                 <div className="skills__bar">
@@ -45,7 +45,7 @@ export default function Skills() {
                 <div className="skills__bar">
                   <div className="skills__progress skills__c"></div>
                 </div>
-              </div>
+              </div> */}
               <div className="skills__card">
                 <img src="/assets/img/js-svgrepo-com.svg" alt="JavaScript" className="skills__icon" style={{width: "50px"}} />
                 <h3 className="skills__name">JavaScript</h3>
@@ -59,17 +59,17 @@ export default function Skills() {
             <h3 className="skills__subtitle">Frameworks and Libraries</h3>
             <div className="skills__grid">
               <div className="skills__card">
-                <img src="/assets/img/django-icon-svgrepo-com.svg" alt="Django" className="skills__icon" style={{width: "50px"}} />
-                <h3 className="skills__name">Django</h3>
+                <img src="/assets/img/react-svgrepo-com.svg" alt="React" className="skills__icon" style={{width: "50px"}} />
+                <h3 className="skills__name">React.js</h3>
                 <div className="skills__bar">
-                  <div className="skills__progress skills__django"></div>
+                  <div className="skills__progress skills__react"></div>
                 </div>
               </div>
               <div className="skills__card">
-                <img src="/assets/img/flask-svgrepo-com.svg" alt="Flask" className="skills__icon" style={{width: "50px"}} />
-                <h3 className="skills__name">Flask</h3>
+                <img src="/assets/img/nextjs-icon2.png" alt="API" className="skills__icon" style={{width: "50px"}} />
+                <h3 className="skills__name">Next.js</h3>
                 <div className="skills__bar">
-                  <div className="skills__progress skills__flask"></div>
+                  <div className="skills__progress skills__api"></div>
                 </div>
               </div>
               <div className="skills__card">
@@ -77,48 +77,6 @@ export default function Skills() {
                 <h3 className="skills__name">Rest API</h3>
                 <div className="skills__bar">
                   <div className="skills__progress skills__api"></div>
-                </div>
-              </div>
-              <div className="skills__card">
-                <img src="/assets/img/logo-teal.png" alt="Fast API" className="skills__icon" style={{width: "120px"}} />
-                <h3 className="skills__name">Fast API</h3>
-                <div className="skills__bar">
-                  <div className="skills__progress skills__api"></div>
-                </div>
-              </div>
-              <div className="skills__card">
-                <img src="/assets/img/lc2.png" alt="Langchain" className="skills__icon" style={{width: "180px"}} />
-                <h3 className="skills__name">Langchain</h3>
-                <div className="skills__bar">
-                  <div className="skills__progress skills__api"></div>
-                </div>
-              </div>
-              <div className="skills__card">
-                <img src="/assets/img/scrapy_nbg.png" alt="Scrapy" className="skills__icon" style={{width: "50px"}} />
-                <h3 className="skills__name">Scrapy</h3>
-                <div className="skills__bar">
-                  <div className="skills__progress skills__flask"></div>
-                </div>
-              </div>
-              <div className="skills__card">
-                <img src="/assets/img/bs4.svg" alt="Beautiful Soup" className="skills__icon" style={{width: "100px"}} />
-                <h3 className="skills__name">Beautiful Soup</h3>
-                <div className="skills__bar">
-                  <div className="skills__progress skills__flask"></div>
-                </div>
-              </div>
-              <div className="skills__card">
-                <img src="/assets/img/blacksheep.svg" alt="BlackSheep" className="skills__icon" style={{width: "60px"}} />
-                <h3 className="skills__name">BlackSheep</h3>
-                <div className="skills__bar">
-                  <div className="skills__progress skills__flask"></div>
-                </div>
-              </div>
-              <div className="skills__card">
-                <img src="/assets/img/react-svgrepo-com.svg" alt="React" className="skills__icon" style={{width: "50px"}} />
-                <h3 className="skills__name">React.js</h3>
-                <div className="skills__bar">
-                  <div className="skills__progress skills__react"></div>
                 </div>
               </div>
               <div className="skills__card">
@@ -154,21 +112,21 @@ export default function Skills() {
                   <div className="skills__progress skills__postman"></div>
                 </div>
               </div>
-              <div className="skills__card">
+              {/* <div className="skills__card">
                 <img src="/assets/img/docker-svgrepo-com.svg" alt="Docker" className="skills__icon" style={{width: "50px"}} />
                 <h3 className="skills__name">Docker</h3>
                 <div className="skills__bar">
                   <div className="skills__progress skills__postman"></div>
                 </div>
-              </div>
-              <div className="skills__card">
+              </div> */}
+              {/* <div className="skills__card">
                 <img src="/assets/img/linux-svgrepo-com.svg" alt="Linux" className="skills__icon" style={{width: "50px"}} />
                 <h3 className="skills__name">Linux</h3>
                 <div className="skills__bar">
                   <div className="skills__progress skills__linux"></div>
                 </div>
-              </div>
-              <div className="skills__grid">
+              </div> */}
+              {/* <div className="skills__grid">
                 <div className="skills__card">
                   <img src="/assets/img/selenium-svgrepo-com.svg" alt="Selenium" className="skills__icon" style={{width: "50px"}} />
                   <h3 className="skills__name">Selenium</h3>
@@ -176,7 +134,7 @@ export default function Skills() {
                     <div className="skills__progress skills__selenium"></div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* Databases Section */}
@@ -189,27 +147,18 @@ export default function Skills() {
                   <div className="skills__progress skills__mongo"></div>
                 </div> */}
               </div>
-              <div className="skills__card">
+              {/* <div className="skills__card">
                 <img src="/assets/img/mysql-logo-svgrepo-com.svg" alt="MySQL" className="skills__icon" style={{width: "50px"}} />
                 <h3 className="skills__name">MySQL</h3>
-                {/* <div className="skills__bar">
-                  <div className="skills__progress skills__mysql"></div>
-                </div> */}
-              </div>
-              <div className="skills__card">
+              </div> */}
+              {/* <div className="skills__card">
                 <img src="/assets/img/sqlite-svgrepo-com.svg" alt="SQLite" className="skills__icon" style={{width: "50px"}} />
                 <h3 className="skills__name">SQLite</h3>
-                {/* <div className="skills__bar">
-                  <div className="skills__progress skills__sqlite"></div>
-                </div> */}
-              </div>
-              <div className="skills__card">
+              </div> */}
+              {/* <div className="skills__card">
                 <img src="/assets/img/postgresql-svgrepo-com.svg" alt="PostgreSQL" className="skills__icon" style={{width: "50px"}} />
                 <h3 className="skills__name">PostgreSQL</h3>
-                {/* <div className="skills__bar">
-                  <div className="skills__progress skills__postgresql"></div>
-                </div> */}
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
