@@ -49,6 +49,7 @@ const projects = [
             { name: "MongoDB", icon: "/assets/img/mongo-svgrepo-com.svg", width: "30px" },
             { name: "Firebase", icon: "/assets/img/firebase.png", width: "20px", height: "25px" },
         ],
+        category: "Full-Stack", // Optional category badge
         github: "https://github.com/farhanarexa/Food-Cycle-Frontend",
         live_demo: "https://food-cycle.netlify.app"
     },
@@ -77,10 +78,10 @@ const projects = [
             "/project_images/mojo/Screenshot 2024-10-09 002912.png",
         ],
         technologies: [
-            { name: "React", icon: "/assets/img/react-svgrepo-com.svg", width: "25px" },,
+            { name: "React", icon: "/assets/img/react-svgrepo-com.svg", width: "25px" },
             { name: "Firebase", icon: "/assets/img/firebase.png", width: "20px", height: "25px" },
             { name: "JSON", icon: "/assets/img/json.png", width: "30px" },
-            
+
         ],
         github: "https://github.com/farhanarexa/green-nest",
         live_demo: "https://green-nest-plants.netlify.app/"
@@ -90,7 +91,7 @@ const projects = [
         description_short: "A key project involved developing a comprehensive Django-based...",
         description_full: "A key project involved developing a comprehensive Django-based admin panel tailored for managing employee data and workflows. This included integrating daily work updates and creating an API to streamline interview scheduling processes. To ensure a seamless and engaging user experience, I optimized frontend responsiveness using CSS media queries and JavaScript for dynamic content rendering.",
         images: [
-            "/project_images/hr/Screenshot 2024-10-21 222403.png",
+            "/project_images/green-nest/Green-Nest-thumbnail.png",
             "/project_images/hr/Screenshot 2024-10-21 222539.png",
             "/project_images/hr/Screenshot 2024-10-21 222558.png",
             "/project_images/hr/Screenshot 2024-10-20 121750.png",
@@ -103,7 +104,8 @@ const projects = [
             { name: "Rest API", icon: "/assets/img/api-settings-svgrepo-com.svg", width: "35px" },
         ],
         github: "https://github.com/ArifRexa/HR-Management-System",
-        live_demo: null
+        live_demo: null,
+        category: "Serverless", // Optional category badge
     },
 ];
 
@@ -154,6 +156,11 @@ export default function Projects() {
             <div className="project-card" key={index}>
               <div className="project-image-container" onClick={() => openModal(index)}>
                 <img src={project.images[0]} alt={project.name} className="project-image" />
+                {project.category && (
+                  <div className={`project-badge ${project.category.toLowerCase().replace(' ', '-')}`}>
+                    {project.category}
+                  </div>
+                )}
               </div>
               <div className="project-content">
                 <h3 className="project-title">{project.name}</h3>
@@ -186,6 +193,50 @@ export default function Projects() {
           </div>
         </div>
       )}
+      <style jsx>{`
+        .project-image-container {
+          position: relative;
+        }
+
+        .project-badge {
+          position: absolute;
+          top: 8px;
+          right: 8px;
+          padding: 4px 12px;
+          border-radius: 20px;
+          font-size: 10px;
+          font-weight: 700;
+          text-transform: uppercase;
+          z-index: 2;
+          backdrop-filter: blur(4px);
+          -webkit-backdrop-filter: blur(4px);
+          border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .full-stack {
+          background-color: rgba(74, 222, 128, 0.25);
+          color: #94f364;
+          border: 1px solid rgba(74, 222, 128, 0.4);
+        }
+
+        .serverless {
+          background-color: rgba(96, 165, 250, 0.25);
+          color: #81b2ff;
+          border: 1px solid rgba(96, 165, 250, 0.4);
+        }
+
+        .frontend {
+          background-color: rgba(251, 191, 36, 0.25);
+          color: #fcd34d;
+          border: 1px solid rgba(251, 191, 36, 0.4);
+        }
+
+        .backend {
+          background-color: rgba(244, 114, 182, 0.25);
+          color: #f687b3;
+          border: 1px solid rgba(244, 114, 182, 0.4);
+        }
+      `}</style>
     </section>
   );
 }
