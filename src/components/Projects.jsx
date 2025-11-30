@@ -3,11 +3,11 @@ import { useState } from 'react';
 
 const projects = [
     {
-        name: "AI Chatbot",
+        name: "Food Cycle",
         description_short: "An intelligent chatbot powered by natural language processing...",
         description_full: "An intelligent chatbot powered by natural language processing, capable of understanding and responding to user queries in real-time.",
         images: [
-            "/project_images/surrat/Screenshot 2024-10-09 003122.png",
+            "/project_images/food-cycle/food-cycle-thumbnail-1.png",
             "/project_images/surrat/Screenshot 2024-10-09 003130.png",
             "/project_images/surrat/Screenshot 2024-10-09 003138.png",
             "/project_images/surrat/Screenshot 2024-10-09 003149.png",
@@ -42,21 +42,22 @@ const projects = [
             "/project_images/surrat/Screenshot_20241009_232439_com.systemintegration.jpg"
         ],
         technologies: [
-            { name: "django", icon: "/assets/img/django-icon-svgrepo-com.svg", width: "25px" },
+            { name: "React", icon: "/assets/img/react-svgrepo-com.svg", width: "25px" },
             { name: "Rest API", icon: "/assets/img/api-settings-svgrepo-com.svg", width: "35px" },
-            { name: "OpenAI", icon: "/assets/img/openai-svgrepo-com.svg", width: "20px" },
-            { name: "Huggingface", icon: "/assets/img/huggingface.png", width: "30px" },
-            { name: "PostgreSQL", icon: "/assets/img/postgresql-svgrepo-com.svg", width: "30px" },
+            { name: "Node", icon: "/assets/img/nodejs.png", width: "25px", height: "25px" },
+            { name: "Express", icon: "/assets/img/expressjs.png", width: "25px", height: "25px" },
+            { name: "MongoDB", icon: "/assets/img/mongo-svgrepo-com.svg", width: "30px" },
+            { name: "Firebase", icon: "/assets/img/firebase.png", width: "20px", height: "25px" },
         ],
-        github: "https://github.com/ArifRexa/Surrat-AI-Chat-Bot",
-        live_demo: null
+        github: "https://github.com/farhanarexa/Food-Cycle-Frontend",
+        live_demo: "https://food-cycle.netlify.app"
     },
     {
-        name: "Social Media Automation",
+        name: "Green Nest",
         description_short: "I developed automated solutions for user interactions...",
         description_full: "I developed automated solutions for user interactions across platforms like Facebook, Instagram, and LinkedIn using Python, Selenium, and BeautifulSoup. This included secure session management and streamlined content distribution, enhancing engagement and operational efficiency.",
         images: [
-            "/project_images/mojo/Screenshot 2024-10-09 002145.png",
+            "/project_images/green-nest/Green-Nest-thumbnail.png",
             "/project_images/mojo/Screenshot 2024-10-09 002210.png",
             "/project_images/mojo/Screenshot 2024-10-09 002230.png",
             "/project_images/mojo/Screenshot 2024-10-09 002302.png",
@@ -76,17 +77,16 @@ const projects = [
             "/project_images/mojo/Screenshot 2024-10-09 002912.png",
         ],
         technologies: [
-            { name: "Python", icon: "/assets/img/python-svgrepo-com.svg", width: "25px" },
-            { name: "Blacksheep", icon: "/assets/img/blacksheep.svg", width: "35px" },
-            { name: "Selenium", icon: "/assets/img/selenium-svgrepo-com.svg", width: "25px" },
-            { name: "PostgreSQL", icon: "/assets/img/postgresql-svgrepo-com.svg", width: "30px" },
-            { name: "Docker", icon: "/assets/img/docker-svgrepo-com.svg", width: "30px" },
+            { name: "React", icon: "/assets/img/react-svgrepo-com.svg", width: "25px" },,
+            { name: "Firebase", icon: "/assets/img/firebase.png", width: "20px", height: "25px" },
+            { name: "JSON", icon: "/assets/img/json.png", width: "30px" },
+            
         ],
-        github: "https://github.com/ArifRexa/Social-Media-Automation/tree/main",
-        live_demo: null
+        github: "https://github.com/farhanarexa/green-nest",
+        live_demo: "https://green-nest-plants.netlify.app/"
     },
     {
-        name: "HR Management",
+        name: "Local Service Hub",
         description_short: "A key project involved developing a comprehensive Django-based...",
         description_full: "A key project involved developing a comprehensive Django-based admin panel tailored for managing employee data and workflows. This included integrating daily work updates and creating an API to streamline interview scheduling processes. To ensure a seamless and engaging user experience, I optimized frontend responsiveness using CSS media queries and JavaScript for dynamic content rendering.",
         images: [
@@ -98,32 +98,13 @@ const projects = [
             "/project_images/hr/Screenshot 2024-10-20 121931.png",
         ],
         technologies: [
-            { name: "Python", icon: "/assets/img/python-svgrepo-com.svg", width: "25px" },
-            { name: "django", icon: "/assets/img/django-icon-svgrepo-com.svg", width: "25px" },
-            { name: "MySql", icon: "/assets/img/mysql-logo-svgrepo-com.svg", width: "45px" },
+            { name: "Next", icon: "/assets/img/nextjs-icon2.png", width: "25px" },
+            { name: "Supabase", icon: "/assets/img/supabase-logo.png", width: "25px", height: "25px" },
+            { name: "Rest API", icon: "/assets/img/api-settings-svgrepo-com.svg", width: "35px" },
         ],
         github: "https://github.com/ArifRexa/HR-Management-System",
         live_demo: null
     },
-    {
-        name: "ATS",
-        description_short: "This ATS (Applicant Tracking System) simplifies the resume ...",
-        description_full: "This ATS (Applicant Tracking System) simplifies the resume screening process by integrating Google Gemini AI with a user-friendly Streamlit interface. It processes uploaded resumes in PDF format, evaluates them against job descriptions, and provides comprehensive feedback. The system highlights key strengths, identifies gaps, and calculates a percentage match to determine alignment with the role, helping users enhance their resumes effectively.",
-        images: [
-            "/project_images/ATS/Screenshot 2024-10-20 124421.png",
-            "/project_images/ATS/Screenshot 2024-10-20 125025.png",
-            "/project_images/ATS/screencapture-localhost-8501-2024-10-20-12_53_490.png",
-            "/project_images/ATS/Screenshot 2024-10-20 130941.png"
-        ],
-        technologies: [
-            { name: "Python", icon: "/assets/img/python-svgrepo-com.svg", width: "25px" },
-            { name: "django", icon: "/assets/img/django-icon-svgrepo-com.svg", width: "25px" },
-            { name: "OpenAI", icon: "/assets/img/openai-svgrepo-com.svg", width: "20px" },
-            { name: "Streamlit", icon: "/assets/img/streamlit-logo-primary-colormark-darktext.svg", width: "120px" },
-        ],
-        github: "https://github.com/ArifRexa/Application-Tracking-System-ATS",
-        live_demo: "https://application-tracking-system-ats-qevhvhhxlvsjvrmfduuxx9.streamlit.app/"
-    }
 ];
 
 export default function Projects() {
@@ -181,9 +162,9 @@ export default function Projects() {
                   <span className="full-text" style={{ display: expanded[index] ? 'inline' : 'none' }}>{project.description_full}</span>
                   <a href="#" className="see-more" onClick={(e) => { e.preventDefault(); toggleDescription(index); }}>{expanded[index] ? 'See Less' : 'See More'}</a>
                 </p>
-                <div className="technologies mb-2 flex ">
+                <div className="technologies mb-2 flex align-items-center">
                   {project.technologies.map((tech, i) => (
-                    <img key={i} src={tech.icon} alt={tech.name} title={tech.name} style={{width: tech.width}} />
+                    <img key={i} src={tech.icon} alt={tech.name} title={tech.name} style={{width: tech.width, height: tech?.height}} />
                   ))}
                 </div>
                 <div className="project-links">

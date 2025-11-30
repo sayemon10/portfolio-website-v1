@@ -15,7 +15,7 @@ export default function Hero() {
 
           <div className="" style={{ display: 'flex', justifyContent: 'center' }}>
             <div className="st-social-link">
-              <a href="https://www.linkedin.com/in/farhana-faru/" className="st-social-btn" target="_blank">
+              <a href="https://www.linkedin.com/in/farhana-faru/" className="st-social-btn active" target="_blank">
                 <span className="st-social-icon"><i className="fab fa-linkedin"></i></span>
                 <span className="st-icon-name">LinkedIn</span>
               </a>
@@ -23,11 +23,11 @@ export default function Hero() {
                 <span className="st-social-icon"><i className="fab fa-github"></i></span>
                 <span className="st-icon-name">Github</span>
               </a>
-              <a href="https://x.com/" className="st-social-btn" target="_blank">
-                <span className="st-social-icon"><i className="fab fa-twitter"></i></span>
-                <span className="st-icon-name">Twitter</span>
+              <a href="https://" className="st-social-btn" target="_blank">
+                <span className="st-social-icon"><i className="fab fa-whatsapp"></i></span>
+                <span className="st-icon-name">Whats App</span>
               </a>
-              <a href="https://www.threads.net/@iam_faruuu" className="st-social-btn active" target="_blank">
+              <a href="https://www.threads.net/@iam_faruuu" className="st-social-btn" target="_blank">
                 <span className="st-social-icon"><i className="fa-brands fa-threads"></i></span>
                 <span className="st-icon-name">Threads</span>
               </a>
