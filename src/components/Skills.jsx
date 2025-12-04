@@ -22,11 +22,8 @@ export default function Skills() {
             <h2 style={{ textAlign: 'center' }}>All the skills that I have in that field
               of work are mentioned.</h2>
             <p className="skills__description">
-              I am a Software Engineer with extensive experience in both frontend and backend development. I
-              specialize in Python, Django, React, and Tailwind CSS, with a strong foundation in web
-              automation
-              and
-              API integration.
+              I am a Full-Stack Developer with extensive expertise in both frontend and backend development. I specialize in React, Next, and Tailwind CSS, with a strong foundation in web
+              Development and API integration.
             </p>
 
             {/* Languages Section */}
