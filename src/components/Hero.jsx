@@ -23,7 +23,7 @@ export default function Hero() {
                 <span className="st-social-icon"><i className="fab fa-github"></i></span>
                 <span className="st-icon-name">Github</span>
               </a>
-              <a href="https://" className="st-social-btn" target="_blank">
+              <a href="https://web.whatsapp.com/send?phone=+8801779742755" className="st-social-btn" target="_blank">
                 <span className="st-social-icon"><i className="fab fa-whatsapp"></i></span>
                 <span className="st-icon-name">Whats App</span>
               </a>
