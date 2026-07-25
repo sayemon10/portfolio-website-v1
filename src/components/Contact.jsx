@@ -1,7 +1,7 @@
 
 export default function Contact() {
   return (
-    <section id="contact" className="st-dark-bg" style={{ marginBottom: '250px', marginTop: '100px' }}>
+    <section id="contact" className="st-dark-bg">
       <div className="st-height-b100 st-height-lg-b80"></div>
       <div className="container">
         <div className="st-section-heading st-style1">
