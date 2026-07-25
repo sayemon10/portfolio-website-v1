@@ -913,8 +913,11 @@ hr {
 }
 
 @media screen and (min-width: 991px) {
+  #home, #about, #skills, #projects, #resume, #contact {
+    margin-inline-start: 250px
+  },
   .st-site-header.st-style2 {
-    width: 300px;
+    width: 250px;
     background: #070d1b;
     height: 100vh;
     border-right: 1px solid #101624;
@@ -952,10 +955,10 @@ hr {
     content: '';
     position: fixed;
     height: 80px;
-    width: 299px;
+    width: 249px;
     left: 0;
     bottom: 0;
-    background-color: #070d1b;
+    background-color: transparent;
   }
 
   .st-site-header.st-style2 .st-social-btn.st-style1 {
